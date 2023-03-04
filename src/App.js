@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-  return <h2>Money Tracker</h2>;
+  return (
+    <div>
+      <h2>Money Tracker</h2>
+      <ExpenseItem />
+    </div>
+  );
 }
 
 export default App;
