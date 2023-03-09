@@ -2,7 +2,6 @@ import React from "react";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
-  /* new Date() is the JS function to fect date. new Date(2021, 2, 28) is the date set with initaial date as 2021 as year,  month as march(02--because month starts from 0(jan) and date as 28th)*/
   /* Naming convection of variable name starts with small letters and then capital letter as expenseDate */
 
   return (
