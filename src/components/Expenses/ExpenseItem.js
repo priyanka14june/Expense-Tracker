@@ -1,7 +1,7 @@
 import React from "react";
 import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItem.css";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 function ExpenseItem(props) {
   /* Naming convection of variable name starts with small letters and then capital letter as expenseDate */

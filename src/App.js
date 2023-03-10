@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 /* <ExpenseItem /> can be written as <ExpenseItem> </ExpenseItem> and every componenet should be imported to app.js as its the main componenet to show up on page */
 /* new Date() is the JS function to fect date. new Date(2021, 2, 28) is the date set with initaial date as 2021 as year,  month as march(02--because month starts from 0(jan) and date as 28th)*/
