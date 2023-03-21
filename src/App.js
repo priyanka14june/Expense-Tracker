@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpenses from "./components/NewExpenses/NewExpenses";
 
 /* <ExpenseItem /> can be written as <ExpenseItem> </ExpenseItem> and every componenet should be imported to app.js as its the main componenet to show up on page */
 /* new Date() is the JS function to fect date. new Date(2021, 2, 28) is the date set with initaial date as 2021 as year,  month as march(02--because month starts from 0(jan) and date as 28th)*/
@@ -27,9 +28,13 @@ const expenses = [
 ];
 
 function App() {
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+  };
   return (
     <div>
-      <h2>Money Tracker</h2>
+      <NewExpenses onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
